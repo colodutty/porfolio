@@ -1,0 +1,30 @@
+#trabajos{
+    background: #333;
+    color: #fff;
+    text-align: center;    
+    padding: 20px;
+}
+#trabajos .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#trabajos .trabajo{
+    margin:20px;
+}
+.trabajo img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+@media (min-width: 480px){
+    .trabajo{
+        width: 40%;
+    }
+}
+@media (min-width: 480px){
+    .trabajo{
+        width: auto;
+    }
+}

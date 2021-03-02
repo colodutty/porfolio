@@ -1,0 +1,75 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(aspectos.css);
+@import url(trabajos.css);
+@import url(footer.css);
+@import url(formulario.css);
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height:auto;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: block;
+    padding: 10px;
+}
+
+header .container{    
+    width: 98%;
+    margin: auto;
+}
+
+header label {
+    width: 98%;
+    margin: auto;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#sobreMi{
+    text-align:center;
+}
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.copy {
+    font-size: 20px;
+}
+.social{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.social a{
+    color: #333;
+    text-decoration: none;
+}
+.social img{
+    width: 35px;
+    height: 35px;
+}
+@media (min-width:1024px) {
+    .container {
+        width: 1000px;
+        margin: auto;
+    }
+}

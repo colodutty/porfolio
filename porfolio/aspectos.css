@@ -1,0 +1,47 @@
+#aspectos h3, h4{
+    text-align: center;
+}
+#aspectos .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#aspectos article{
+    margin:15px;
+}
+#sobreMi h2{
+    color: black;
+}
+#aspectos img{
+    width: 100%;
+    max-width: 280px;
+}
+#sobreMi img{
+    float: left;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+#sobreMi .container{
+    width: 100%;
+    height: auto;
+}
+#sobreMi p{
+    text-align: center;
+    margin: 10px;
+    width: 80%;
+}
+.descripcion{
+    width: auto;
+    text-align: right;
+    text-justify: auto;
+}
+@media (min-width:1024px){
+    #sobreMi .container{    
+        width: 50%;
+        height: auto;
+        justify-content: center;
+    }
+    
+}

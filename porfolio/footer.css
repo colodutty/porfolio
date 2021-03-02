@@ -1,0 +1,8 @@
+@media (min-width: 768px){
+    .social{
+        width: auto;
+    }
+    footer .container{
+        justify-content:space-between;
+    }
+}
